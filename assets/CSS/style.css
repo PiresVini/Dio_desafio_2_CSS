@@ -1,0 +1,238 @@
+
+@import url('reset.css');
+* {
+    background-color: white;
+}
+.conteiner-1 {
+    display: flex;
+    width: 1440px;
+    height: 56px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px gray;
+}
+.menu {
+    border: none;
+    margin-top: 10px;
+    margin-right: 10PX;
+    width: 24px;
+    height: 24px;
+
+}
+.logo {
+    width: 90px;
+    height: 20px;
+    border: none;
+    margin-top: 2px;
+    margin-left: 10px;
+    left: 68px;
+
+}
+.caixa-pesquisa {
+    width: 348px;
+    height: 40px;
+    border:solid 1px #CCCCCC;
+    margin-top: 8px;
+    padding: 1px;
+}
+.busca {
+    position: absolute;
+    width: 57px;
+    height: 40px;
+    border: solid 1px #CCCCCC;
+    margin: 0px;
+    top: 8px;
+    padding: 1px;
+}
+.item-3 {
+    width: 150px;
+    height: 50px;
+    margin-top: 5px;
+}
+.botao-video {
+    position: relative;
+    left: 1px;
+    top: 0px;
+    border: none;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    padding: 0px;
+}
+.botao-notificacao {
+    position: relative;
+    left: 18px;
+    top: 0px;
+    border: none;
+    margin-top: 0px;
+    width: 24px;
+    height: 24px;
+    padding: 0px;
+    margin: 5px;
+}
+.botao-avatar {
+    position: relative;
+    left: 30px;
+    top: 3px;
+    border: none;
+    margin-top: 5px;
+    margin-right: 0px;
+    width: 34px;
+    height: 34px;
+    padding: 0px;
+}
+
+.conteiner-text {
+    position: absolute;
+    right: 1px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 200px;
+    height: 900px;
+
+}
+.conteiner {
+    position: absolute;
+    right: 170px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 200px;
+    height: 900px;
+
+}
+.conteiner-midia {
+    position: absolute;
+    left: 75px;
+    width: 972px;
+    height: 746px;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 10px;
+}
+.conteiner-video-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+    width: 922px;
+    height: 42px;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+h1 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0px;
+}
+h2 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0px;
+}
+p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 1px;
+    word-break: break-all;
+}
+#item {
+    width: 150px;
+    height: 90px;
+    border: none;
+    padding: 10px;
+}
+#item-text {
+    padding: 10px;
+    width: 186px;
+    height: 90px;
+    border: none;
+    word-break: normal;
+}
+#item-actions {
+    width: 160px;
+    word-break: normal;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+#video {
+    margin-bottom: 10px;
+    width: 952px;
+    height: 537px;
+}
+#subscribe {
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    background-color: #CC0000;
+    text-align: center;
+    border: none;
+}
+#item-like {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#t {
+    position: absolute;
+    left: 40px;
+    bottom: 19px;
+}
+#tn {
+    position: absolute;
+    left: 40px;
+    bottom: 10px;
+}
+#td {
+    position: absolute;
+    width: 80px;
+    left: 80px;
+    bottom: 134px;
+}
+article {
+    width: 510px;
+    height: 64px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+}
